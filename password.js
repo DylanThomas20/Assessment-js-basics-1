@@ -42,7 +42,7 @@ for (let i = 0; i < password.length; i++){
      }   
 
 //if statement that checks if there is atleast one number     
-    if (!/[^1-9]/.test(password.charAt(i))){
+    if (!/[^0-9]/.test(password.charAt(i))){
         num = true
      }  
 //if statement that checks if there are any spaces in the password     
