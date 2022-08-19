@@ -51,6 +51,7 @@ for (let i = 0; i < password.length; i++){
      }  
 }
 
+//if statement that checks every condition for if a password works or not
 if (character === true && uppercase === true && num === true && passwordLength === true && spaceCheck===false){
         console.log("Password was accepted")
     } else {
